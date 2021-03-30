@@ -6,9 +6,9 @@
 
 #### CFA
 
-- [CFA Economics](./CFA/CFA Economics.md)
-- [CFA Portfolio Management](./CFA/CFA Portfolio Management.md)
-- [CFA Quantitative Analysis](./CFA/CFA Quantitative Analysis.md)
+- [CFA Economics](./CFA/CFA%20Economics.md)
+- [CFA Portfolio Management](./CFA/CFA%20Portfolio%20Management.md)
+- [CFA Quantitative Analysis](./CFA/CFA%20Quantitative%20Analysis.md)
 
 #### 工作
 
