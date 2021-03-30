@@ -26,3 +26,7 @@
 - [人的脑内激素调节](./心理学/人的脑内激素调节.md)
 - [哈佛大学积极心理学](./心理学/哈佛大学积极心理学.md)
 - [自控力读书笔记](./心理学/自控力读书笔记.md)
+
+#### 强化学习
+
+[TODO]: [Berkeley CS 285 Deep Reinforcement Learning](http://rail.eecs.berkeley.edu/deeprlcourse/)
