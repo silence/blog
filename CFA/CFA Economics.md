@@ -1,3 +1,5 @@
+# CFA Level I Economics
+
 ## 微观经济学
 
 ### Demand and Supply Analysis 供需分析
@@ -77,7 +79,8 @@
    - Substitution effect and Income Effects 替代效应和收入效应
      - Giffen goods 吉芬商品，特殊的劣等品，（太劣等了，降价了也不买你的）
      - Veblen goods 韦伯伦商品 , Conspicuous 炫耀性商品
-     - ![image-20210104010031832](https://raw.githubusercontent.com/silence/blog/assets/assets/20210104010031.png)
+     
+       ![image-20210104010031832](https://raw.githubusercontent.com/silence/blog/assets/assets/20210104010031.png)
 
 #### 3. Profit, Product, Revenue and Costs 利润、产量、收益和成本
 
