@@ -68,7 +68,7 @@
 
 [TODO]: [Berkeley CS 285 Deep Reinforcement Learning](http://rail.eecs.berkeley.edu/deeprlcourse/)
 
-```bash
+```
 ├── CFA
 │   ├── CFA Economics.md
 │   ├── CFA Fixed Income.md
