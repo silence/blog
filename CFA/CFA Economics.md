@@ -8,9 +8,9 @@
 
 1. function
 
-   - Demand function ![Q_d^x = f(p_x, I, p_y...)](https://render.githubusercontent.com/render/math?math=Q_d%5Ex%20%3D%20f(p_x%2C%20I%2C%20p_y...))
+   - Demand function $Q_d^x = f(p_x, I, p_y...)$
    - Q → quant , d → demand , I → Income , p → price
-   - Supply function ![Q_s^x= f(P_x, W...)](https://render.githubusercontent.com/render/math?math=Q_s%5Ex%3D%20f(P_x%2C%20W...))
+   - Supply function $Q_s^x= f(P_x, W...)$
    - W→ wage 工资
 
 2. curve
@@ -41,7 +41,7 @@
 
 1. **Price Elasticity** of Demand
 
-   - ![\text{Price elasticity of demand = }\frac{\text{percent change in quantity demand}}{\text{percent change in price}} = \frac{\Delta Q/Q}{\Delta P /P}](https://render.githubusercontent.com/render/math?math=%5Ctext%7BPrice%20elasticity%20of%20demand%20%3D%20%7D%5Cfrac%7B%5Ctext%7Bpercent%20change%20in%20quantity%20demand%7D%7D%7B%5Ctext%7Bpercent%20change%20in%20price%7D%7D%20%3D%20%5Cfrac%7B%5CDelta%20Q%2FQ%7D%7B%5CDelta%20P%20%2FP%7D)
+   - $\text{Price elasticity of demand = }\frac{\text{percent change in quantity demand}}{\text{percent change in price}} = \frac{\Delta Q/Q}{\Delta P /P}$
 
    - 一般只要求计算弧弹性
 
@@ -63,14 +63,14 @@
 
 2. **Cross elasticity** of demand
 
-   - ![\text{Cross elasticity of demand = }\frac{\text{percent change in quantity demand}}{\text{percent change in price of substitute or complement}} = \frac{\Delta Q_x/Q_x}{\Delta P_y /P_y}](https://render.githubusercontent.com/render/math?math=%5Ctext%7BCross%20elasticity%20of%20demand%20%3D%20%7D%5Cfrac%7B%5Ctext%7Bpercent%20change%20in%20quantity%20demand%7D%7D%7B%5Ctext%7Bpercent%20change%20in%20price%20of%20substitute%20or%20complement%7D%7D%20%3D%20%5Cfrac%7B%5CDelta%20Q_x%2FQ_x%7D%7B%5CDelta%20P_y%20%2FP_y%7D)
+   - $\text{Cross elasticity of demand = }\frac{\text{percent change in quantity demand}}{\text{percent change in price of substitute or complement}} = \frac{\Delta Q_x/Q_x}{\Delta P_y /P_y}$
 
    - substitute good: e > 0 可替代商品如：apple and pear
    - complement good: e < 0 互补品 如：car and gas
 
 3. **Income elasticity** of demand
 
-   - ![\text{Income elasticity of demand = }\frac{\text{percent change in quantity demanded}}{\text{percent change in income}} = \frac{\Delta Q_x/Q_x}{\Delta I /I}](https://render.githubusercontent.com/render/math?math=%5Ctext%7BIncome%20elasticity%20of%20demand%20%3D%20%7D%5Cfrac%7B%5Ctext%7Bpercent%20change%20in%20quantity%20demanded%7D%7D%7B%5Ctext%7Bpercent%20change%20in%20income%7D%7D%20%3D%20%5Cfrac%7B%5CDelta%20Q_x%2FQ_x%7D%7B%5CDelta%20I%20%2FI%7D)
+   - $\text{Income elasticity of demand = }\frac{\text{percent change in quantity demanded}}{\text{percent change in income}} = \frac{\Delta Q_x/Q_x}{\Delta I /I}$
    - 商品分类
      - normal goods (e > 0)
        - luxuries 奢侈品 (high positive elasticity, e > 1)
@@ -98,7 +98,7 @@
 
    - AP: Average product 平均产量
 
-   - **MP: Marginal product 边际产量** 新增带来的新增 ![\Delta TP / \Delta L](https://render.githubusercontent.com/render/math?math=%5CDelta%20TP%20%2F%20%5CDelta%20L) L: labor 劳工
+   - **MP: Marginal product 边际产量** 新增带来的新增 $\Delta TP / \Delta L$ L: labor 劳工
 
    - TP、AP、MP 都是倒 U 型；**MP 是 TP 的斜率**即一阶导数，MP=0 时，TP 最大；MP 和 AP 的交点是 AP 的最高点，即 MP=AP 时，AP 最大；
 
@@ -375,7 +375,7 @@
 1. Inflation 通胀、Deflation 通缩、Disinflation （通货膨胀率在下降的通胀）
 2. Inflation Measurement
    - The consumer price index ( **CPI** )
-   - ![CPI = \frac{\text{cost of basket at current prices}}{\text {cost of basket at base period prices}} \times 100](https://render.githubusercontent.com/render/math?math=CPI%20%3D%20%5Cfrac%7B%5Ctext%7Bcost%20of%20basket%20at%20current%20prices%7D%7D%7B%5Ctext%20%7Bcost%20of%20basket%20at%20base%20period%20prices%7D%7D%20%5Ctimes%20100) ( basket 指消费者消费的“一篮子”商品，美国包括大约 5000 种商品，比如牛奶、蔬菜等等，包括很多进口商品)
+   - $CPI = \frac{\text{cost of basket at current prices}}{\text {cost of basket at base period prices}} \times 100$ ( basket 指消费者消费的“一篮子”商品，美国包括大约 5000 种商品，比如牛奶、蔬菜等等，包括很多进口商品)
    - GDP deflator GDP 平减指数，指整个宏观经济的通胀率
    - Producer price index ( PPI 生产商物价指数) 、Wholesale price index ( WPI 批发商物价指数) 是 CPI 先行指数
    - **Headline inflation** refers to price indexes _for all goods_
@@ -386,7 +386,7 @@
    - Lapsers Index （ Last ）使用过去的 _basket_ ，会产生一定的**高估**
    - Paasche Index ( Present ) 使用当前的 _basket_
    - 例：![image-20210210185244739](https://raw.githubusercontent.com/silence/blog/assets/assets/20210210185244.png)
-   - Fisher index = ![\sqrt{I_P \times I_L}](https://render.githubusercontent.com/render/math?math=%5Csqrt%7BI_P%20%5Ctimes%20I_L%7D) = Lapsers Index ✖️ Paasche Index 的几何平均
+   - Fisher index = $\sqrt{I_P \times I_L}$ = Lapsers Index ✖️ Paasche Index 的几何平均
 4. 通货膨胀的两种形式
    - Co**s**t-pu**s**h inflation 成本推动的，如工资上涨、原料价格上涨
    - Demand-pull inflation 需求拉动的，如货币供应量增加、政府采购、出口增加等。
@@ -598,7 +598,7 @@
 
 1. DC / FC 是对外币的 Direct quota 直接报价法
 2. FC / DC 是对外币的 Indirect quota 间接报价法
-3. 以美国为例：real = ![\frac{7.1DC / CPI_{DC}}{1FC/CPI_{FC}}](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B7.1DC%20%2F%20CPI_%7BDC%7D%7D%7B1FC%2FCPI_%7BFC%7D%7D)，真实汇率 = 名义汇率 \* 通货膨胀
+3. 以美国为例：real = $\frac{7.1DC / CPI_{DC}}{1FC/CPI_{FC}}$，真实汇率 = 名义汇率 \* 通货膨胀
 4. **S**pot rates 即期汇率
 5. **F**orward rates 远期汇率
 6. Cross Rate 交叉汇率
@@ -608,9 +608,9 @@
 
 #### 2. Interest Rate Parity (IRP) 利率平价公式
 
-1. 以 A / B 为例：![\frac{F}{S} = \frac{1 + r_A}{1 + r_B}](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BF%7D%7BS%7D%20%3D%20%5Cfrac%7B1%20%2B%20r_A%7D%7B1%20%2B%20r_B%7D)，S: Spot
+1. 以 A / B 为例：$\frac{F}{S} = \frac{1 + r_A}{1 + r_B}$，S: Spot
 
-2. ![\frac{F -S}{S} \approx r_A  - r_B](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BF%20-S%7D%7BS%7D%20%5Capprox%20r_A%20%20-%20r_B)
+2. $\frac{F -S}{S} \approx r_A  - r_B$
 
 #### 3. Exchange Rate Regimes 汇率制度
 

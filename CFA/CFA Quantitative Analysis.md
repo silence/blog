@@ -28,7 +28,7 @@
 1. EAR => Effective annual rate
 2. 单利 仅本金计息 360天
 3. 复利 利息也计息 365天
-4. ![EAR = (1 + \frac{r}{m})^m -1](https://render.githubusercontent.com/render/math?math=EAR%20%3D%20(1%20%2B%20%5Cfrac%7Br%7D%7Bm%7D)%5Em%20-1) 
+4. $EAR = (1 + \frac{r}{m})^m -1$ 
 5. **r** → nominal rate per year **m** → 年计息次数
 6. 连续复利 EAR = e^r^ -1 
 7. 金融计算器
@@ -94,16 +94,16 @@
    - ![image-20210101180915672](https://raw.githubusercontent.com/silence/blog/assets/assets/20210224232350.png)
    - 总体 **希腊字母** 样本 **英文字母**
 6. Chebyshev's Inequality  切比雪夫不等式
-   - ![P(\mu - k\sigma \le x \le \mu + k \sigma)  \ge 1-\frac{1}{k^2}](https://render.githubusercontent.com/render/math?math=P(%5Cmu%20-%20k%5Csigma%20%5Cle%20x%20%5Cle%20%5Cmu%20%2B%20k%20%5Csigma)%20%20%5Cge%201-%5Cfrac%7B1%7D%7Bk%5E2%7D)
+   - $P(\mu - k\sigma \le x \le \mu + k \sigma)  \ge 1-\frac{1}{k^2}$
 7. CV and SR
-   - **Coefficient of variation**  变异系数 又称 离散系数 为 标准差 与 平均值 之比 ![CV = \frac{S}{\bar X}](https://render.githubusercontent.com/render/math?math=CV%20%3D%20%5Cfrac%7BS%7D%7B%5Cbar%20X%7D)
+   - **Coefficient of variation**  变异系数 又称 离散系数 为 标准差 与 平均值 之比 $CV = \frac{S}{\bar X}$
      - 衡量 每单位均值的离散程度 / 每单位均值的风险
      - 性质
        - Scale - free
        - Relative 相对离散程度
    - **Sharpe ratio**
      - 业绩衡量的指标
-     - ![SR = \frac{R_p - R_f}{\sigma_p}](https://render.githubusercontent.com/render/math?math=SR%20%3D%20%5Cfrac%7BR_p%20-%20R_f%7D%7B%5Csigma_p%7D) P: portfolio
+     - $SR = \frac{R_p - R_f}{\sigma_p}$ P: portfolio
      - 每单位风险的超额收益
      - excess return 超额收益
 
@@ -114,7 +114,7 @@
    - 长尾在哪边就往哪边偏
 
    - gain 利润
-   - ![S_k= [\frac{n}{(n-1)(n-2)}]\frac{\sum_{i=1}^n(X_i-\bar X)^3}{s^3}\approx(\frac{1}{n})\frac{\sum_{i=1}^n(X_i-\bar X)^3}{s^3}](https://render.githubusercontent.com/render/math?math=S_k%3D%20%5B%5Cfrac%7Bn%7D%7B(n-1)(n-2)%7D%5D%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5En(X_i-%5Cbar%20X)%5E3%7D%7Bs%5E3%7D%5Capprox(%5Cfrac%7B1%7D%7Bn%7D)%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5En(X_i-%5Cbar%20X)%5E3%7D%7Bs%5E3%7D)
+   - $$S_k= [\frac{n}{(n-1)(n-2)}]\frac{\sum_{i=1}^n(X_i-\bar X)^3}{s^3}\approx(\frac{1}{n})\frac{\sum_{i=1}^n(X_i-\bar X)^3}{s^3}$$
 
    - 右偏 > 0
    - 左偏 < 0
@@ -123,7 +123,7 @@
 
 1. L > 3 N = 3 P < 3
 2. power = 4
-3. 高峰肥尾 假设![\sigma^2](https://render.githubusercontent.com/render/math?math=%5Csigma%5E2)和正态分布一样 
+3. 高峰肥尾 假设$\sigma^2$和正态分布一样 
 
 ### 3. Probability concepts
 
@@ -147,13 +147,13 @@
 
 1. Joint probability P(AB) 联合概率
 
-   - Multiplication rule ![P(AB) = P(A\lvert B)\times P(B) = P(B\lvert A) \times P(A)](https://render.githubusercontent.com/render/math?math=P(AB)%20%3D%20P(A%5Clvert%20B)%5Ctimes%20P(B)%20%3D%20P(B%5Clvert%20A)%20%5Ctimes%20P(A))
+   - Multiplication rule $P(AB) = P(A\lvert B)\times P(B) = P(B\lvert A) \times P(A)$
 
    - If A and B are mutually exclusive events, then : P(AB) = 0
 
 2. Addition rule
 
-   - ![P(A or B) = P(A) + P(B) - P(AB)](https://render.githubusercontent.com/render/math?math=P(A%20or%20B)%20%3D%20P(A)%20%2B%20P(B)%20-%20P(AB))
+   - $P(A or B) = P(A) + P(B) - P(AB)$
    - If A and B are mutually exclusive events, then : P(AB) = P(A) + P(B)
 
 3. 互斥事件一定不是独立事件
@@ -166,13 +166,13 @@
 
 1. Covariance 协方差
    - 定义：两个随机变量变化的方向性 同向 > 0 反向 < 0
-   - ![Cov_{xy} = E[(x_i-\bar x)(y_i - \bar y)]](https://render.githubusercontent.com/render/math?math=Cov_%7Bxy%7D%20%3D%20E%5B(x_i-%5Cbar%20x)(y_i%20-%20%5Cbar%20y)%5D)  范围： ![-\infin \sim + \infin](https://render.githubusercontent.com/render/math?math=-%5Cinfin%20%5Csim%20%2B%20%5Cinfin)
-   - ![Cov_{xx} = \sigma_x^2](https://render.githubusercontent.com/render/math?math=Cov_%7Bxx%7D%20%3D%20%5Csigma_x%5E2) **自己和自己的协方差就是方差**
+   - $Cov_{xy} = E[(x_i-\bar x)(y_i - \bar y)]$  范围： $-\infin \sim + \infin$
+   - $Cov_{xx} = \sigma_x^2$ **自己和自己的协方差就是方差**
    
 2. Correlation 相关系数
-   - ![\rho_{xy} = \frac{Cov_{xy}}{\sigma_x\sigma_y}](https://render.githubusercontent.com/render/math?math=%5Crho_%7Bxy%7D%20%3D%20%5Cfrac%7BCov_%7Bxy%7D%7D%7B%5Csigma_x%5Csigma_y%7D)
+   - $\rho_{xy} = \frac{Cov_{xy}}{\sigma_x\sigma_y}$
    - **Linear** relationship **线性关系**
-   - 范围： ![-1\sim +1](https://render.githubusercontent.com/render/math?math=-1%5Csim%20%2B1)
+   - 范围： $-1\sim +1$
    - slope 斜率 
    - 缺陷
      - 只能衡量线性关系
@@ -180,9 +180,9 @@
      - 伪相关
 #### 4. Portfolio Return and Risk
 
-1. ![\sigma_p^2  = w_1^2\sigma_1^2 + w_2^2\sigma_2^2 + 2w_1w_2\sigma_1\sigma_2\rho_{12}](https://render.githubusercontent.com/render/math?math=%5Csigma_p%5E2%20%20%3D%20w_1%5E2%5Csigma_1%5E2%20%2B%20w_2%5E2%5Csigma_2%5E2%20%2B%202w_1w_2%5Csigma_1%5Csigma_2%5Crho_%7B12%7D)
-   - 若![\rho = 1](https://render.githubusercontent.com/render/math?math=%5Crho%20%3D%201)  ![\sigma_p = w_1\sigma_1 + w_2\sigma_2](https://render.githubusercontent.com/render/math?math=%5Csigma_p%20%3D%20w_1%5Csigma_1%20%2B%20w_2%5Csigma_2)
-   - 若![\rho = -1](https://render.githubusercontent.com/render/math?math=%5Crho%20%3D%20-1)  ![\sigma_p = \lvert w_1\sigma_1 - w_2\sigma_2 \lvert](https://render.githubusercontent.com/render/math?math=%5Csigma_p%20%3D%20%5Clvert%20w_1%5Csigma_1%20-%20w_2%5Csigma_2%20%5Clvert)
+1. $\sigma_p^2  = w_1^2\sigma_1^2 + w_2^2\sigma_2^2 + 2w_1w_2\sigma_1\sigma_2\rho_{12}$
+   - 若$\rho = 1$  $\sigma_p = w_1\sigma_1 + w_2\sigma_2$
+   - 若$\rho = -1$  $\sigma_p = \lvert w_1\sigma_1 - w_2\sigma_2 \lvert$
    - 分散化效果好
 
 #### 5. Bayes' Formula
@@ -199,7 +199,7 @@
 2. Continuous 连续
 3. Discrete uniform distribution 离散均匀分布
 4. Binomial distribution 二项式分布
-   - ![C_n^xP^x(1-p)^{n-x}](https://render.githubusercontent.com/render/math?math=C_n%5ExP%5Ex(1-p)%5E%7Bn-x%7D)
+   - $C_n^xP^x(1-p)^{n-x}$
    - Expectation : np
    - Variance: np(1-p)
 5. Continuous Uniform Distribution 连续均匀分布
@@ -207,7 +207,7 @@
 
 ### 4. Normal Distribution
 
-1.  ![X \sim N(\mu, \sigma^2)](https://render.githubusercontent.com/render/math?math=X%20%5Csim%20N(%5Cmu%2C%20%5Csigma%5E2))
+1.  $X \sim N(\mu, \sigma^2)$
 
 2. skewness = 0 ; kurtosis = 3
 
@@ -223,8 +223,8 @@
 
 5. 标准化
 
-   - ![\mu = 0, \sigma^2 = 1](https://render.githubusercontent.com/render/math?math=%5Cmu%20%3D%200%2C%20%5Csigma%5E2%20%3D%201)
-   - If  ![X \sim N(\mu, \sigma^2)](https://render.githubusercontent.com/render/math?math=X%20%5Csim%20N(%5Cmu%2C%20%5Csigma%5E2)) ; ![\frac{X-\mu}{\sigma} \sim N(0,1)](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BX-%5Cmu%7D%7B%5Csigma%7D%20%5Csim%20N(0%2C1))
+   - $\mu = 0, \sigma^2 = 1$
+   - If  $X \sim N(\mu, \sigma^2)$ ; $\frac{X-\mu}{\sigma} \sim N(0,1)$
 
 #### 1. Safety First Ratio
 
@@ -233,7 +233,7 @@
 
 #### 2. Lognormal Distribution 
 
-1. 若 ![lnx](https://render.githubusercontent.com/render/math?math=lnx) is normal 则 x is lognormal
+1. 若 $lnx$ is normal 则 x is lognormal
 2. Right skewed
 
 #### 3. Simulation
@@ -271,11 +271,11 @@
      - 样本均值服从正态分布
      - 样本均值的均值 = 总体均值
      - 样本均值的方差 = 总体方差 / n
-     - 若想用 样本均值 ![\bar{x}](https://render.githubusercontent.com/render/math?math=%5Cbar%7Bx%7D) => 去估计整体的 ![\mu](https://render.githubusercontent.com/render/math?math=%5Cmu) ，则 ![\bar{x}](https://render.githubusercontent.com/render/math?math=%5Cbar%7Bx%7D) ~ ![N(\mu_\bar{x}, \sigma^2_\bar{x} = \frac{\sigma^2_x}{n})](https://render.githubusercontent.com/render/math?math=N(%5Cmu_%5Cbar%7Bx%7D%2C%20%5Csigma%5E2_%5Cbar%7Bx%7D%20%3D%20%5Cfrac%7B%5Csigma%5E2_x%7D%7Bn%7D)) 
+     - 若想用 样本均值 $\bar{x}$ => 去估计整体的 $\mu$ ，则 $\bar{x}$ ~ $N(\mu_\bar{x}, \sigma^2_\bar{x} = \frac{\sigma^2_x}{n})$ 
    - standard error 标准误
      - 衡量的是**样本均值的离散程度**
      - 样本均值的标准差称为 standard error
-     - 计算：![\sigma_\bar{x} = \frac{\sigma_x}{\sqrt{n}}](https://render.githubusercontent.com/render/math?math=%5Csigma_%5Cbar%7Bx%7D%20%3D%20%5Cfrac%7B%5Csigma_x%7D%7B%5Csqrt%7Bn%7D%7D)
+     - 计算：$\sigma_\bar{x} = \frac{\sigma_x}{\sqrt{n}}$
 
 #### 2.  Estimation
 
@@ -286,9 +286,9 @@
 2. 估计方法
    - Point estimate 点估计，认为抽样的样本均值就是总体均值
    - Interval estimate 区间估计，（统计学要严谨，即存在置信区间，认为抽样的样本均值在某个区间的概率是多少）
-     - 我们要用 ![\bar{x}](https://render.githubusercontent.com/render/math?math=%5Cbar%7Bx%7D) 去估计 ![\mu_x](https://render.githubusercontent.com/render/math?math=%5Cmu_x) ，所以 ![CI_\bar{x} = \bar{x} \pm k\frac{\sigma}{\sqrt{n}}](https://render.githubusercontent.com/render/math?math=CI_%5Cbar%7Bx%7D%20%3D%20%5Cbar%7Bx%7D%20%5Cpm%20k%5Cfrac%7B%5Csigma%7D%7B%5Csqrt%7Bn%7D%7D)
+     - 我们要用 $\bar{x}$ 去估计 $\mu_x$ ，所以 $CI_\bar{x} = \bar{x} \pm k\frac{\sigma}{\sqrt{n}}$
      - 计算
-     - 置信区间的宽度 ![(\bar{x} + k\frac{\sigma}{\sqrt{n}}) - (\bar{x} - k\frac{\sigma}{\sqrt{n}}) = 2k\frac{\sigma}{\sqrt{n}}](https://render.githubusercontent.com/render/math?math=(%5Cbar%7Bx%7D%20%2B%20k%5Cfrac%7B%5Csigma%7D%7B%5Csqrt%7Bn%7D%7D)%20-%20(%5Cbar%7Bx%7D%20-%20k%5Cfrac%7B%5Csigma%7D%7B%5Csqrt%7Bn%7D%7D)%20%3D%202k%5Cfrac%7B%5Csigma%7D%7B%5Csqrt%7Bn%7D%7D)
+     - 置信区间的宽度 $(\bar{x} + k\frac{\sigma}{\sqrt{n}}) - (\bar{x} - k\frac{\sigma}{\sqrt{n}}) = 2k\frac{\sigma}{\sqrt{n}}$
 
 #### 3. T-distribution
 
@@ -297,7 +297,7 @@
    - Degrees of freedom （df = n -1）
    - Less peaked , fatter tails 低峰肥尾
      - kurtosis < 3
-     - 方差大 ![\sigma^2 > 1](https://render.githubusercontent.com/render/math?math=%5Csigma%5E2%20%3E%201)
+     - 方差大 $\sigma^2 > 1$
    - Student's t-distribution converages to the standard normal distribution as degrees of freedom goes to infinity 当自由度逐渐增大时，t - 分布会逐渐接近于标准正态分布 N(0, 1) 。
 2. z/t 分布判断
    - 方差已知用z
@@ -326,9 +326,9 @@
    
 3. Test statistic 检验统计量
    - Z 分布 （总体方差已知）
-     - ![\text{Test Statistic} = \frac{\bar{X} - \mu_0}{\sigma/\sqrt{n}}](https://render.githubusercontent.com/render/math?math=%5Ctext%7BTest%20Statistic%7D%20%3D%20%5Cfrac%7B%5Cbar%7BX%7D%20-%20%5Cmu_0%7D%7B%5Csigma%2F%5Csqrt%7Bn%7D%7D)
+     - $\text{Test Statistic} = \frac{\bar{X} - \mu_0}{\sigma/\sqrt{n}}$
    - t 分布 （总体方差未知）
-     - ![\text{Test Statistic} = \frac{\bar{X} - \mu_0}{s/\sqrt{n}}](https://render.githubusercontent.com/render/math?math=%5Ctext%7BTest%20Statistic%7D%20%3D%20%5Cfrac%7B%5Cbar%7BX%7D%20-%20%5Cmu_0%7D%7Bs%2F%5Csqrt%7Bn%7D%7D)
+     - $\text{Test Statistic} = \frac{\bar{X} - \mu_0}{s/\sqrt{n}}$
    
 4. Critical value（关键值，实际就是 k 值）
    - K 值的影响因素
@@ -364,7 +364,7 @@
 
      > 例：一种原件，要求使用寿命不低于1000小时，现从一批这种原件中抽取25件，测得其使用寿命的平均值为950小时，已知该原件服从标准差S=100小时的正太分布，试在显著性水平α=0.05下确定这批原件是否合格
 
-   - **T检验**：**主要用于样本含量较小（例如 n < 30），总体标准差 ![\sigma](https://render.githubusercontent.com/render/math?math=%5Csigma) 未知的正态分布。**T检验是用 t 分布理论来推论差异发生的概率，从而比较两个平均数的差异是否显著。
+   - **T检验**：**主要用于样本含量较小（例如 n < 30），总体标准差 $\sigma$ 未知的正态分布。**T检验是用 t 分布理论来推论差异发生的概率，从而比较两个平均数的差异是否显著。
 
      > 1. 单样本 t 检验：
      >
